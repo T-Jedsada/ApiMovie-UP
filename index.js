@@ -13,6 +13,7 @@ server.route({
     }
 });
 
+// test
 server.start((err) => {
     if (err) {
         throw err;
