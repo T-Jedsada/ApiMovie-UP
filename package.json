@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hapi": "^16.5.2"
+    "atatus-node": "^0.1.6",
+    "hapi": "^17.2.3",
+    "hapijs-status-monitor": "ziyasal/hapijs-status-monitor",
+    "swagger-stats": "^0.95.6"
   }
 }
