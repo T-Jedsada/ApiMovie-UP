@@ -1,0 +1,17 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - atatus-node > request > hawk > hoek:
+        patched: '2019-04-16T14:48:04.050Z'
+    - atatus-node > request > hawk > boom > hoek:
+        patched: '2019-04-16T14:48:04.050Z'
+    - atatus-node > request > hawk > sntp > hoek:
+        patched: '2019-04-16T14:48:04.050Z'
+    - atatus-node > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-16T14:48:04.050Z'
+  'npm:tunnel-agent:20170305':
+    - atatus-node > request > tunnel-agent:
+        patched: '2019-04-16T14:48:04.050Z'
