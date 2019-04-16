@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +15,8 @@
     "atatus-node": "^0.1.6",
     "hapi": "^17.2.3",
     "hapijs-status-monitor": "ziyasal/hapijs-status-monitor",
-    "swagger-stats": "^0.95.6"
-  }
+    "swagger-stats": "^0.95.6",
+    "snyk": "^1.151.0"
+  },
+  "snyk": true
 }
